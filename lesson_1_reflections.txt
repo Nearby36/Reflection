@@ -1,0 +1,5 @@
+1.用命令行比较两个文件的差异
+Windows:cd到目标文件的路径，用FC fileA fileB比较差异
+Mac/Linux:cd， diff fileA fileB（用diff命令）
+
+2.
