@@ -5,3 +5,8 @@ master下可以有多个分支。
 切换到分支git checkout 分支名
 git status会显示当前是master还是某个具体的分支
 剩余的操作跟前面git add; git commit一致
+
+图表如何直观显示分支结构？
+git log --graph --oneline master branch_name
+显示的是master主干与分支branch_name的结构关系，可以看到分叉出去的branch_name做了什么修改。
+对于一个分支名的提交，只能创建分支来跟踪该修改：git checkout commit_id; git checkout -b branch_name这样branch_name可以追踪倒该commit
