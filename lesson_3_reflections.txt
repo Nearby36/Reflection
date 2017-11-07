@@ -10,3 +10,8 @@ git status会显示当前是master还是某个具体的分支
 git log --graph --oneline master branch_name
 显示的是master主干与分支branch_name的结构关系，可以看到分叉出去的branch_name做了什么修改。
 对于一个分支名的提交，只能创建分支来跟踪该修改：git checkout commit_id; git checkout -b branch_name这样branch_name可以追踪倒该commit
+
+
+在线图表工具
+gliffy
+yUML
