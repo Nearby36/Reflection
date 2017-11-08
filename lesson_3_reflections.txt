@@ -15,3 +15,6 @@ git log --graph --oneline master branch_name
 在线图表工具
 gliffy
 yUML
+
+Git的自动合并与手动合并
+在文件没有冲突的时候，git会执行自动合并；当有冲突时，需要手动确定需要保留或者删除的改动。
