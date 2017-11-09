@@ -6,3 +6,7 @@
 
 git remote
 git remote add origin SSH...
+
+
+何时使用远程版本库（直接在github上修改），而不是将所有工作保存在本地？
+不想公开一些内容但又不想创建多个分支的时候？（瞎答的）
