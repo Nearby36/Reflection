@@ -19,3 +19,11 @@ git remote add origin SSH...
 fork是github用户与用户之间，保留最原始用户的版本不被其他用户修改。
 克隆是从github页面到本地电脑之间的拷贝。
 分支是同一个路径内。
+
+
+合并更改
+当本地做了修改，而github上又有另一个合作者在github上对同一个文件提交了修改时，本地与github上的版本就出现了冲突。
+本地修改前的版本在分支origin/master下，github和本地做修改后的版本在两个不同的master分支下。
+做git pull之前，git log origin/master都只有本地未作修改前的log；
+git pull origin = git fetch origin + git merge master origin/master二者的作用等同
+这时会提示有冲突，不能自动合并，需要手动操作。待手动合并完后提交，再git push origin master
