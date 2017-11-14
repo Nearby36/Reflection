@@ -27,3 +27,10 @@ fork是github用户与用户之间，保留最原始用户的版本不被其他用户修改。
 做git pull之前，git log origin/master都只有本地未作修改前的log；
 git pull origin = git fetch origin + git merge master origin/master二者的作用等同
 这时会提示有冲突，不能自动合并，需要手动操作。待手动合并完后提交，再git push origin master
+
+拥有远程分支的上次已知状态的副本（本地存储）有何好处？
+可以只在本地做修改，保存历史信息，但不上传到远程分支？（瞎答）
+
+11.14
+如何在不使用Git或github的情况下开展协同？哪种方法更容易？哪种更难
+在线的协同工具，有管理员和普通用户，管理员有所有的权限，普通用户限制权限对文件进行编辑修改。但不能同时在本地做修改后方便地对在线内容进行更新。
